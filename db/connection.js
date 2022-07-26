@@ -11,7 +11,6 @@ const db = mysql.createConnection(
 		password: 'Randomsammicat@05',
 		database: 'election_db'
 	},
-	console.log('Connected to the election database.')
 );
 
 module.exports = db;
